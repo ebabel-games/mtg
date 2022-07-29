@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import './Dropdown.css';
 
 function Dropdown(props) {
@@ -49,7 +49,7 @@ function Dropdown(props) {
   }, []); // Second parameter of useEffect must be [] otherwise an infinite loop is created.
 
     return (
-      <>
+      <div className="Dropdown">
         {status === 'Loading' && <p className="placeholder-dropdown" />}
         {status === 'Error' && <p className="error">Something went wrong</p>}
         {status === 'Success' && (
@@ -60,7 +60,7 @@ function Dropdown(props) {
             </select>
           </label>
         )}
-      </>
+      </div>
     );
 }
 

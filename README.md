@@ -43,7 +43,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - Display paginated results, including images.
 - The formats is a local filter rather than a query parameter.
 - Query parameters: set, pageSize, page, and colors.
-- The colors query parameter can take one or several colors, and use AND or OR operators.
+- The colors query parameter can take one or several colors, and use the OR operator.
 - Some of the query parameters are hard-coded, like the card colors, since these never change.
 - Make the display print friendly, with the option to include or exclude images.
 

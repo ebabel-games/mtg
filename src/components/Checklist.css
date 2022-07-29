@@ -1,0 +1,18 @@
+.Checklist {
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+.Checklist li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1em 0 0;
+}
+
+.Checklist label {
+  cursor: pointer;
+}
+
+.Checklist label input {
+  margin-right: 0.5em;
+}

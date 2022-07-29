@@ -9,10 +9,6 @@
   margin: 0 1em 0 0;
 }
 
-.Checklist label {
-  cursor: pointer;
-}
-
 .Checklist label input {
   margin-right: 0.5em;
 }

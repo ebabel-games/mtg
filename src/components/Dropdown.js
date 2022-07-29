@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 
-const label = 'Sets'; // todo: make that label a parameter attribute passed to this component.
+const label = 'Sets';
 
 function Dropdown() {
   const [status, setStatus] = useState('');
@@ -11,7 +11,6 @@ function Dropdown() {
     fetch('/data/2022-07-29/api.magicthegathering.io/v1/sets.json')
       .then(res => res.json())
       .then(res => {
-        // todo: use the res instead.
         if (res && res.sets) {
           const _options = res.sets.map(s => { return { code: s.code, name: s.name } });
           setOptions(_options);
@@ -19,12 +18,11 @@ function Dropdown() {
       })
       .then(() => setStatus('Success'))
       .catch(() => setStatus('Error'));
-  }, []); // Second parameter must be [] otherwise an infinite loop is created.
+  }, []); // Second parameter of useEffect must be [] otherwise an infinite loop is created.
 
-  // todo: use an animated image as placeholder, which takes roughly the same size as the dropdown.
   return (
     <>
-      {status === 'Loading' && <p className="placeholder-dropdown">loading, please wait...</p>}
+      {status === 'Loading' && <p className="placeholder-dropdown" />}
       {status === 'Error' && <p className="error">Something went wrong</p>}
       {status === 'Success' && (
         <label>

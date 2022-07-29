@@ -1,0 +1,146 @@
+{
+  "cards": [
+    {
+      "name": "Aspect of Wolf",
+      "manaCost": "{1}{G}",
+      "cmc": 2.0,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "rarity": "Rare",
+      "set": "2ED",
+      "setName": "Unlimited Edition",
+      "text": "Enchant creature\nEnchanted creature gets +X/+Y, where X is half the number of Forests you control, rounded down, and Y is half the number of Forests you control, rounded up.",
+      "artist": "Jeff A. Menges",
+      "number": "185",
+      "layout": "normal",
+      "multiverseid": "737",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=737&type=card",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The effect is continuously updated based on the number of Forests you control at any given time."
+        }
+      ],
+      "printings": [
+        "2ED",
+        "3ED",
+        "4BB",
+        "4ED",
+        "5ED",
+        "CED",
+        "CEI",
+        "FBB",
+        "LEA",
+        "LEB",
+        "PZ2",
+        "SUM"
+      ],
+      "originalText": "Target creature's power and toughness are increased by half the number of forests you have in play, rounding down for power and up for toughness.",
+      "originalType": "Enchant Creature",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Oldschool",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "b62db1a4-630f-56d5-bd12-ed41271c6e0f"
+    },
+    {
+      "name": "Berserk",
+      "manaCost": "{G}",
+      "cmc": 1.0,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Uncommon",
+      "set": "2ED",
+      "setName": "Unlimited Edition",
+      "text": "Cast this spell only before the combat damage step.\nTarget creature gains trample and gets +X/+0 until end of turn, where X is its power. At the beginning of the next end step, destroy that creature if it attacked this turn.",
+      "artist": "Dan Frazier",
+      "number": "186",
+      "layout": "normal",
+      "multiverseid": "738",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=738&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If the permanent stops being a creature before the end of the turn, it is still destroyed."
+        }
+      ],
+      "printings": [
+        "2ED",
+        "CED",
+        "CEI",
+        "CN2",
+        "LEA",
+        "LEB",
+        "ME1",
+        "V09",
+        "VMA"
+      ],
+      "originalText": "Until end of turn, target creature's current power doubles and it gains trample ability. If it attacks, target creature is destroyed at end of turn. This spell cannot be cast after current turn's attack is completed.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Oldschool",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "92472c4c-5f2a-5916-a1cd-e7e831d54252"
+    }
+  ]
+}

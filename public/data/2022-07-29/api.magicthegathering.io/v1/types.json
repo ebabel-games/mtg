@@ -1,0 +1,27 @@
+{
+  "types": [
+    "Artifact",
+    "Conspiracy",
+    "Creature",
+    "Dragon",
+    "Elemental",
+    "Enchantment",
+    "Goblin",
+    "Hero",
+    "instant",
+    "Instant",
+    "Jaguar",
+    "Knights",
+    "Land",
+    "Phenomenon",
+    "Plane",
+    "Planeswalker",
+    "Scheme",
+    "Sorcery",
+    "Summon",
+    "Tribal",
+    "Vanguard",
+    "Wolf",
+    "You’ll"
+  ]
+}

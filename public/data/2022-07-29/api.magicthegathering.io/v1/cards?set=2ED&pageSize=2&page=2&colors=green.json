@@ -1,0 +1,158 @@
+{
+  "cards": [
+    {
+      "name": "Birds of Paradise",
+      "manaCost": "{G}",
+      "cmc": 1.0,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Bird",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Bird"
+      ],
+      "rarity": "Rare",
+      "set": "2ED",
+      "setName": "Unlimited Edition",
+      "text": "Flying\n{T}: Add one mana of any color.",
+      "artist": "Mark Poole",
+      "number": "187",
+      "power": "0",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": "739",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=739&type=card",
+      "printings": [
+        "10E",
+        "2ED",
+        "3ED",
+        "4BB",
+        "4ED",
+        "5ED",
+        "6ED",
+        "7ED",
+        "8ED",
+        "CED",
+        "CEI",
+        "CN2",
+        "FBB",
+        "GK2",
+        "LEA",
+        "LEB",
+        "M10",
+        "M11",
+        "M12",
+        "MB1",
+        "PM11",
+        "PRM",
+        "PTC",
+        "RAV",
+        "SLD",
+        "SUM",
+        "WC00",
+        "WC01",
+        "WC02",
+        "WC98"
+      ],
+      "originalText": "Flying\nTap to add one mana of any color to your mana pool. This tap may be played as an interrupt.",
+      "originalType": "Summon - Mana Birds",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Oldschool",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "6f8324b0-005c-5ab2-b64c-c1f729598a82"
+    },
+    {
+      "name": "Camouflage",
+      "manaCost": "{G}",
+      "cmc": 1.0,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Uncommon",
+      "set": "2ED",
+      "setName": "Unlimited Edition",
+      "text": "Cast this spell only during your declare attackers step.\nThis turn, instead of declaring blockers, each defending player chooses any number of creatures they control and divides them into a number of piles equal to the number of attacking creatures for whom that player is the defending player. Creatures those players control that can block additional creatures may likewise be put into additional piles. Assign each pile to a different one of those attacking creatures at random. Each creature in a pile that can block the creature that pile is assigned to does so. (Piles can be empty.)",
+      "artist": "Jesper Myrfors",
+      "number": "188",
+      "layout": "normal",
+      "multiverseid": "740",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=740&type=card",
+      "printings": [
+        "2ED",
+        "CED",
+        "CEI",
+        "LEA",
+        "LEB"
+      ],
+      "originalText": "You may rearrange your attacking creatures and place them face down, revealing which is which only after defense is chosen. If this results in impossible blocks, such as non-flying creatures blocking flying creatures, illegal blockers cannot block this turn.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Oldschool",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "5a1075bf-653a-595a-aab0-b1ca31eaaef6"
+    }
+  ]
+}

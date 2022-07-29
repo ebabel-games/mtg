@@ -1,18 +1,27 @@
 import { useEffect, useState, useRef } from "react";
+import './Dropdown.css';
 
-const label = 'Sets';
-
-function Dropdown() {
+function Dropdown(props) {
   const [status, setStatus] = useState('');
   const [options, setOptions] = useState([]);
 
   useEffect(() => {
     setStatus('Loading');
-    fetch('/data/2022-07-29/api.magicthegathering.io/v1/sets.json')
+    fetch(props.local)
       .then(res => res.json())
       .then(res => {
-        if (res && res.sets) {
-          const _options = res.sets.map(s => { return { code: s.code, name: s.name } });
+        if (res && res[props.localName]) {
+          let key = 0;
+          const _options = res[props.localName]
+            .map(s => {
+              key += 1;
+              const _key = `${props.localName}_${key}`;
+              if (s.code && s.name) {
+                return { key: _key, code: s.code, name: s.name };
+              }
+
+              return { key: _key, code: s, name: s };
+          });
           setOptions(_options);
         }
       })
@@ -26,9 +35,9 @@ function Dropdown() {
       {status === 'Error' && <p className="error">Something went wrong</p>}
       {status === 'Success' && (
         <label>
-          <p>Sets</p>
+          <p>{props.label}</p>
           <select>
-            {options.map(o => <option key={o.code} value={o.code}>{o.name}</option>)}
+            {options.map(o => <option key={o.key} value={o.code}>{o.name}</option>)}
           </select>
         </label>
       )}

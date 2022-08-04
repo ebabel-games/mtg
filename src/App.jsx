@@ -1,5 +1,6 @@
 import Dropdown from './components/Dropdown';
 import Checklist from './components/Checklist';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Dropdown label="Formats" local="/data/2022-07-29/api.magicthegathering.io/v1/formats.json" localName="formats"  />
       <Dropdown label="Sets" local="/data/2022-07-29/api.magicthegathering.io/v1/sets.json" localName="sets" />
       <Checklist label="Colours" items={['Green', 'White', 'Blue', 'Black', 'Red']} />
+      <Button label="Search" />
     </>
   );
 }
